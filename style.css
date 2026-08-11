@@ -1,9 +1,9 @@
-root {
-  --fundo-principal: #06130d;  
-  --fundo-card: #112218;       
-  --cor-texto: #ecfdf5;        
-  --cor-destaque: #34d399;      
-  --texto-secundario: #a7f3d0; 
+:root {
+  --fundo-principal: #06130d;  /* 60% Base / Fundo */
+  --fundo-card: #112218;       /* 30% Secundária / Cartões */
+  --cor-texto: #ecfdf5;        /* Texto principal claro */
+  --cor-destaque: #34d399;     /* 10% Destaque / CTA (Verde esmeralda) */
+  --texto-secundario: #a7f3d0; /* Subtextos e detalhes */
 }
 
 * {
@@ -63,7 +63,11 @@ h2 {
 
 p {
   margin-bottom: 1rem;
-  color: #d1fae5;
+  color: #ecfdf5; /* Texto bem claro para garantir contraste */
+}
+
+strong {
+  color: var(--cor-destaque); /* Destaque no texto em negrito */
 }
 
 img {

@@ -1,4 +1,12 @@
- {
+:root {
+  --fundo-principal: #06130d;  /* 60% Base / Fundo */
+  --fundo-card: #112218;       /* 30% Secundária / Cartões */
+  --cor-texto: #ecfdf5;        /* Texto principal claro */
+  --cor-destaque: #34d399;     /* 10% Destaque / CTA (Verde esmeralda) */
+  --texto-secundario: #a7f3d0; /* Subtextos e detalhes */
+}
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;

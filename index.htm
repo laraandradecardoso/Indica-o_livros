@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indicações Literárias</title>
+  <style>
+    :root {
+      --fundo-principal: #06130d;
+      --fundo-card: #112218;
+      --cor-texto: #ffffff;
+      --cor-destaque: #34d399;
+      --texto-secundario: #a7f3d0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--fundo-principal);
+      color: var(--cor-texto);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: var(--fundo-card);
+      padding: 1.5rem 2rem;
+      border-bottom: 2px solid var(--cor-destaque);
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: var(--cor-destaque);
+    }
+
+    main {
+      max-width: 700px;
+      width: 90%;
+      margin: 2.5rem auto;
+      padding: 2rem;
+      background-color: var(--fundo-card);
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+      flex: 1;
+    }
+
+    h1 {
+      color: var(--cor-destaque);
+      font-size: 1.8rem;
+      margin-bottom: 1.2rem;
+      border-bottom: 1px solid rgba(52, 211, 153, 0.2);
+      padding-bottom: 0.5rem;
+    }
+
+    h2 {
+      color: var(--cor-texto);
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      margin-bottom: 0.8rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #ffffff !important;
+    }
+
+    strong {
+      color: var(--cor-destaque);
+    }
+
+    img {
+      width: 100%;
+      max-width: 250px;
+      display: block;
+      margin: 1.5rem auto 0 auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    }
+
+    footer {
+      background-color: var(--fundo-card);
+      text-align: center;
+      padding: 1rem;
+      color: var(--texto-secundario);
+      font-size: 0.85rem;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">📚 Clube da Leitura</div>
+  </header>
+
+  <main>
+    <h1>Descubra Sua Próxima Leitura</h1>
+
+    <h2>Destaque da Semana</h2>
+    <p>Se você procura uma história envolvente e cheia de reflexões sobre escolhas e possibilidades de vida, este livro é uma leitura indispensável para expandir seus horizontes.</p>
+
+    <p><strong>A Biblioteca da Meia-Noite</strong> explora a história de Nora Seed, uma mulher que ganha a oportunidade de viver todas as vidas que poderia ter tido se tivesse tomado decisões diferentes no passado.</p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/pt/4/41/A_biblioteca_da_meia-noite.jpg" alt="Capa do livro A Biblioteca da Meia-Noite">
+  </main>
+
+  <footer>
+    <p>&copy; 2026 - Desenvolvido por Lara Andrade</p>
+  </footer>
+
+</body>
+</html>
